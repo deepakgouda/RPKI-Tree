@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 2. Run the Streamlit app:
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 3. Open your browser to the URL shown in the terminal (typically http://localhost:8501)
@@ -38,3 +38,4 @@ All certificate links connect to the RPKI Console for detailed certificate infor
 
 ## TODO
 - [ ] Add support for ROA certificates
+- [ ] Mark RCs with `inherit` keyword separately
